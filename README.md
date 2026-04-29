@@ -49,5 +49,45 @@
 
 
 **PART 10: Grad-CAM (Explainability)**
+--
+
+<img width="398" height="105" alt="image" src="https://github.com/user-attachments/assets/0dfc5823-d130-4164-ac1d-4d7ca48493aa" />
+
+
+**DenseNet121
+--
+
+<img width="258" height="211" alt="image" src="https://github.com/user-attachments/assets/2378c80b-3340-45cd-a09e-e6ad28689aa6" />
+<img width="356" height="331" alt="image" src="https://github.com/user-attachments/assets/d2d1b1fd-d8a4-4b69-b526-a4468d498428" />
+<img width="468" height="406" alt="image" src="https://github.com/user-attachments/assets/b28ddc53-0550-4f43-b1f6-b58b72280036" />
+<img width="527" height="435" alt="image" src="https://github.com/user-attachments/assets/c35b5bd6-31e6-4a36-95d4-dcf9cf957882" />
+
+
+
+**MobileNetV2**
+--
+
+<img width="210" height="197" alt="image" src="https://github.com/user-attachments/assets/05617a82-3a6a-4d06-9a95-394319d66128" />
+<img width="419" height="368" alt="image" src="https://github.com/user-attachments/assets/ac6e4151-1b29-4157-b12c-ab7a71367b59" />
+<img width="567" height="499" alt="image" src="https://github.com/user-attachments/assets/16df9caa-a238-4fdc-919c-ad27027e36a1" />
+<img width="523" height="436" alt="image" src="https://github.com/user-attachments/assets/3fc47228-6845-4cf6-ac1b-aed7f4905b88" />
+
+**EfficientNetB0**
+--
+
+<img width="235" height="182" alt="image" src="https://github.com/user-attachments/assets/4d89246c-83ac-499c-beab-a8fe720c313a" />
+<img width="335" height="287" alt="image" src="https://github.com/user-attachments/assets/19bec8d3-07b4-441c-b543-43b117e5754e" />
+<img width="576" height="502" alt="image" src="https://github.com/user-attachments/assets/143a62ed-a71b-446b-8540-002c259dee64" />
+<img width="533" height="439" alt="image" src="https://github.com/user-attachments/assets/0d88622e-9753-44f8-a886-ad46bfce1db1" />
+
+
+
+
+
+
+
+
+
+
 
 
