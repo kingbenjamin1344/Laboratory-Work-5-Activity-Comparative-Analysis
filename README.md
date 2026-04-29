@@ -1,4 +1,4 @@
-**PART 1: Dataset Preparation**
+<img width="210" height="197" alt="image" src="https://github.com/user-attachments/assets/0df855c2-9670-49bd-97e2-7a2d3f0346ff" />**PART 1: Dataset Preparation**
 --
 
 - Step 1: Collect Dataset
@@ -54,7 +54,7 @@
 <img width="398" height="105" alt="image" src="https://github.com/user-attachments/assets/0dfc5823-d130-4164-ac1d-4d7ca48493aa" />
 
 
-**DenseNet121
+**DenseNet121**
 --
 
 <img width="258" height="211" alt="image" src="https://github.com/user-attachments/assets/2378c80b-3340-45cd-a09e-e6ad28689aa6" />
@@ -81,8 +81,14 @@
 <img width="533" height="439" alt="image" src="https://github.com/user-attachments/assets/0d88622e-9753-44f8-a886-ad46bfce1db1" />
 
 
+**PART 11: Save Models**
+--
+
+<img width="323" height="33" alt="image" src="https://github.com/user-attachments/assets/153a4d1b-a0a3-4cb4-9a02-8a44f4374e41" />
 
 
+**PART 12: Performance Comparison Table**
+--
 
 
 
