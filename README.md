@@ -90,10 +90,123 @@
 **PART 12: Performance Comparison Table**
 --
 
+<img width="525" height="435" alt="image" src="https://github.com/user-attachments/assets/fdc05ccb-c035-4f1f-944d-b07a16a0e7f7" />
 
 
+**GUIDE QUESTIONS (FINAL REFLECTION)**
+--
+**A. Model Performance**
 
+1. Which pre-trained model achieved the highest accuracy? Why?
+DenseNet121 achieved the highest test accuracy (0.9833).
+ Likely because it uses dense connections that improve feature reuse and gradient flow, leading to better learning.
 
+2. Which model had the lowest performance? What could be the reason?
+EfficientNetB0 performed the worst (Test Accuracy 0.0493, F1-score 0.05).
+ Possible reasons:
 
+- Poor training (underfitting or wrong hyperparameters)
+- Data mismatch or preprocessing issues
+- Model not properly fine-tuned
 
+3. How did loss values compare across models?
+
+Best models (DenseNet121, MobileNetV2): Low loss (~0.12–0.13 test loss)
+Worst model (EfficientNetB0): Very high loss (~2.96)
+Lower loss = better learning; high loss = model failed to learn patterns.
+B. Evaluation Metrics
+
+4. Why is accuracy not enough to evaluate a model?
+ Accuracy ignores class imbalance and does not show:
+
+- False positives
+- False negatives
+- A model can have high accuracy but still perform poorly on important classes.
+
+5. Which model had the best F1-score? What does it indicate?
+DenseNet121 (F1 = 0.99)
+Indicates excellent balance between precision and recall.
+
+6. How did Precision and Recall differ across models?
+
+- DenseNet121: Balanced (0.99 / 0.99)
+MobileNetV2: Balanced (0.97 / 0.97)
+- 2nd Model: Slight imbalance (0.82 precision / 0.89 recall)
+- EfficientNetB0 & 1st Model: Near zero → failed predictions
+
+ Good models maintain balance; weak models collapse to zero.
+ 
+**C. Confusion Matrix Analysis**
+
+7. Which classes were frequently misclassified?
+ Not explicitly shown, but based on low recall/precision:
+
+EfficientNetB0 and 1st Model misclassified most classes.
+
+8. What patterns did you observe in the confusion matrix? Likely patterns:
+
+- Strong models: predictions concentrated on diagonal (correct)
+- Weak models: scattered predictions (high misclassification)
+- Some confusion between visually similar classes
+
+  
+**D. ROC and AUC**
+
+9. Which model had the highest AUC score?
+DenseNet121 and MobileNetV2 (AUC = 1.00)
+
+10. What does AUC tell us about model performance?
+AUC measures the model’s ability to distinguish between classes.
+
+1.0 = perfect classifier
+Higher AUC = better separability
+
+**E. Explainability (Grad-CAM)**
+
+11. What did Grad-CAM reveal about model decision-making?
+It showed which image regions influenced predictions.
+
+12. Did the model focus on relevant image regions?
+
+- Strong models (DenseNet121, MobileNetV2): Yes
+- Weak models: Likely focused on irrelevant areas
+
+13. Which model produced the most meaningful heatmaps?
+DenseNet121 (most accurate → most reliable focus areas)
+
+**F. Model Comparison & Improvement**
+
+14. Which model would you recommend for deployment? Why?
+DenseNet121
+Highest accuracy, F1-score, AUC, and balanced metrics.
+
+15. How can you further improve your best-performing model?
+
+- Data augmentation
+- Hyperparameter tuning
+- More training data
+- Regularization (dropout, weight decay)
+- Ensemble methods
+  
+**G. Real-World Application**
+
+16. How can your model be applied in real-world scenarios?
+ Depends on use-case, but examples:
+
+- Medical image diagnosis
+- Object detection/classification
+- Quality inspection systems
+
+17. What are the risks of deploying an inaccurate model?
+
+- Wrong predictions → serious consequences (e.g., medical errors)
+- Loss of trust
+- Financial or safety risks
+
+18. How can this system be integrated into a mobile/web app?
+
+- Convert model (e.g., TensorFlow Lite / ONNX)
+- Backend API (Flask, Laravel, Node.js)
+- Frontend uploads image → API returns prediction
+- Display results + confidence + Grad-CAM visualization
 
