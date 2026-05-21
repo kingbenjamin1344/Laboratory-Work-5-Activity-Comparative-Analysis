@@ -225,4 +225,15 @@ https://colab.research.google.com/drive/1ak_F4RxR9c167-xgAJGTLqn7u4rW6s-u?usp=sh
 
 https://drive.google.com/drive/folders/1miaqXDPrUwTdfLjYZgWVWfoHoGgRaDSI?usp=sharing
 
+**Densenet**
+
+https://drive.google.com/file/d/1HHNNwQ7PPKRFiO9cW94S8h8NeIdiHSIz/view?usp=drive_link
+
+**Effecienet**
+
+https://drive.google.com/file/d/1JvOnaVl8hxor3iiTBPtNnvly2UXchfJA/view?usp=drive_link
+
+**MobileNetV2**
+
+https://drive.google.com/file/d/1vdjKAqrxwPsZhp-3Op9NnEBiIocmUHAQ/view?usp=drive_link
 
