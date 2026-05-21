@@ -225,6 +225,22 @@ https://colab.research.google.com/drive/1ak_F4RxR9c167-xgAJGTLqn7u4rW6s-u?usp=sh
 
 https://drive.google.com/drive/folders/1miaqXDPrUwTdfLjYZgWVWfoHoGgRaDSI?usp=sharing
 
+**teachable**
+
+https://drive.google.com/file/d/1dL1EusuQbui45-Q8I5bNt36f-u-BgvNp/view?usp=drive_link
+
+**first model**
+
+https://drive.google.com/file/d/1YWXqLWnGxYkyks6opeRZno60AuzMZJNr/view?usp=drive_link
+
+**second model**
+https://drive.google.com/file/d/1s7fV8VmkvsRlzIyXpAonYSxMYxdR8lr0/view?usp=drive_link
+
+**good model**
+
+https://drive.google.com/file/d/1vlEI_JWZ6RVFV7aciZx8E2xDy3qRAiCw/view?usp=drive_link
+
+
 **Densenet**
 
 https://drive.google.com/file/d/1HHNNwQ7PPKRFiO9cW94S8h8NeIdiHSIz/view?usp=drive_link
